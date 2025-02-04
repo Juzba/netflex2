@@ -26,6 +26,18 @@
 	width: 100px;
 	height: 40px;
 	border: none;
+  cursor: pointer;
+  font-size: 15px;
+
+  box-shadow: 0 0 35px  white;
+  background-color: black;
+  color: aliceblue;
+}
+
+.buttonContainer button:active{
+  box-shadow: 0 0 35px rgb(231, 16, 9);
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
 }
 
 .cardContainer{
