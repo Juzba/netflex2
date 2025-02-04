@@ -1,0 +1,10 @@
+.card{
+    margin: 10px;
+    border: solid red 2px;
+    width: 285px;
+    overflow: hidden;
+}
+
+.card p,h2{
+    padding: 0px 15px;
+}
