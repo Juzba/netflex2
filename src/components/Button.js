@@ -1,5 +1,5 @@
-const Button = () => {
-    return <h1>Nadpis</h1>;
+const Button = (props) => {
+    return <button>{props.text}</button>;
 };
 
 export default Button;
