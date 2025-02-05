@@ -4,11 +4,11 @@ import Card from "./components/Card";
 import data from "./data";
 
 const App = () => {
-	const category = ["Komedie", "Romantika", "Akční"];
-	const [cat, setCat] = useState("");
+	const category = ["All", "Komedie", "Romantika", "Akční"];
+	const [cat, setCat] = useState("All");
 
 	const newData = data.filter((item) => {
-		return item.category === cat;
+		return item["category"] === cat || cat === "All"
 	});
 	console.log(newData)
 
